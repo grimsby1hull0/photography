@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<script>
+  function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /* Loop through a collection of all HTML elements: */
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+      elmnt = z[i];
+      /*search for elements with a certain atrribute:*/
+      file = elmnt.getAttribute("w3-include-html");
+      if (file) {
+        /* Make an HTTP request using the attribute value as the file name: */
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            /* Remove the attribute, and call this function once more: */
+            elmnt.removeAttribute("w3-include-html");
+            includeHTML();
+          }
+        }
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /* Exit the function: */
+        return;
+      }
+    }
+  }
+</script> 
+
+<script>
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    });
+</script>
+
+
+
+<html>
+
+
+
+    <header>
+        <link rel='stylesheet' href='stylesheet.css' type='text/css'>
+        <div w3-include-html="assets/inc/header.html"></div>
+    </header>
+
+
+
+    <body>
+        <div id="left">
+            <h1>Home</h1>
+            <h1>New York</h1>
+        </div>
+        <div id="right">
+            <div class="container">
+                <div class="row">
+                  <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+                  </a>
+                  <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+                  </a>
+                  <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+                  </a>
+                </div>
+                <div class="row">
+                  <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                  </a>
+                  <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+                  </a>
+                  <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+                  </a>
+                </div>
+              </div>
+            
+            
+        </div>
+    </body>
+
+
+
+
+    <footer>
+
+    </footer>
+
+
+    <script>
+        includeHTML();
+    </script>
+
+</html>
