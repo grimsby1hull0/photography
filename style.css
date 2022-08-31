@@ -15,6 +15,8 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -140,6 +142,7 @@ ul a:hover {
   
   text-align: center;
   text-decoration: underline;
+  
 }
 
 #tags {
@@ -147,8 +150,10 @@ ul a:hover {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   padding: 5px;
   color: black;
+  
 }
 
 #tags a {
@@ -159,7 +164,15 @@ ul a:hover {
   text-decoration: underline;
 }
 
+.albumtitle {
+  font-size: 70px;
+  text-align: center;
+  color: white;
 
+  border-style: solid;
+  border-color: white;
+  border-width: 3px 0px 0px 0px ;
+}
 
 
 @media only screen and (max-width: 600px) {
