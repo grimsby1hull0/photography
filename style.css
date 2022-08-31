@@ -136,6 +136,32 @@ ul a:hover {
   width: 70%;
 }
 
+#categories {
+  
+  text-align: center;
+  text-decoration: underline;
+}
+
+#tags {
+  width: 50%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  color: black;
+}
+
+#tags a {
+  color: black;
+}
+
+#tags a:hover {
+  text-decoration: underline;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
 
   #gearbody {
