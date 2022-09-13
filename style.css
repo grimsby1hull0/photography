@@ -175,7 +175,9 @@ ul a:hover {
 }
 
 
-@media only screen and (max-width: 600px) {
+
+
+@media (min-width: 320px) and (max-width: 999px) {
 
   #gearbody {
     width: 85%;
@@ -194,4 +196,7 @@ ul a:hover {
   }
 
 }
+
+
+
 
