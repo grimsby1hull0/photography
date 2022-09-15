@@ -115,6 +115,9 @@
     <a href="assets/img/yorkdales22/000002630020 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="assets/img/yorkdales22/preview/2630020 copy.jpg" class="img-fluid rounded">
     </a>
+    <a href="assets/img/yorkdales22/000002630020 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/preview/2630020 copy.jpg" class="img-fluid rounded">
+    </a>
   </div>
 
 
@@ -211,6 +214,19 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script><script  src="./script.js"></script>
+
+<script>
+
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+    
+    $(document).on('tap','.w-inline-block.w-lightbox', function(){
+      $('div.w-lightbox-content.w-lightbox-group').off('swipe');    
+    });
+    
+  });
+    
+</script>
 
 
 </body>
