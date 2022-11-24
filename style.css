@@ -24,8 +24,8 @@ body {
   position: relative;
   font-size: 100%;
   background: #D1913C;
-  background: -webkit-linear-gradient(to right, #FFD194, #D1913C);
-  background: linear-gradient(to right, #FFD194, #D1913C);
+  background: -webkit-linear-gradient(to right, #FFD194, #FAA330);
+  background: linear-gradient(to right, #FFD194, #FAA330);
 }
 
 h1 {
