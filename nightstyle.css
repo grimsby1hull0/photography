@@ -98,6 +98,7 @@ li {
   padding: 15px;
   font-family: josefinsans;
   font-weight: lighter;
+  min-height: 63vh;
 }
 
 
