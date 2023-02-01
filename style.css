@@ -232,6 +232,10 @@ footer a:hover {
 
 @media (min-width: 320px) and (max-width: 999px) {
 
+  footer {
+    font-size: 5px !important;
+  }
+
   #gearbody {
     width: 85%;
   }
@@ -247,6 +251,10 @@ footer a:hover {
   .container {
     width: 100% !important;
     max-width: 100% !important;
+  }
+
+  #wcb.carbonbadge {
+    font-size: 50px !important;
   }
 
 }

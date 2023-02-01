@@ -262,6 +262,10 @@ footer a:hover {
     max-width: 100% !important;
   }
 
+  #wcb.carbonbadge {
+    font-size: 20px;
+  }
+
 }
 
 
