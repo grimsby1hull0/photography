@@ -16,24 +16,24 @@
     </script>
 
 <script>
-function getStylesheet() {
-  var currentTime = new Date().getHours();
-  if (0 <= currentTime&&currentTime < 5) {
-    document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+  function getStylesheet() {
+    var currentTime = new Date().getHours();
+    if (0 <= currentTime&&currentTime < 8) {
+      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+    }
+    if (8 <= currentTime&&currentTime < 11) {
+      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+    }
+    if (11 <= currentTime&&currentTime < 18) {
+      document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
+    }
+    if (18 <= currentTime&&currentTime < 20) {
+      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+    }
+    if (20 <= currentTime&&currentTime <= 24) {
+      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+    }
   }
-  if (5 <= currentTime&&currentTime < 11) {
-    document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
-  }
-  if (11 <= currentTime&&currentTime < 18) {
-    document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
-  }
-  if (18 <= currentTime&&currentTime < 20) {
-    document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-  }
-  if (20 <= currentTime&&currentTime <= 24) {
-    document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-  }
-}
   
   getStylesheet();
   
