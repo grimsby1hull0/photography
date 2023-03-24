@@ -142,7 +142,7 @@ li {
 #profile {
   background-color: #3f3f3f;
   border-style: solid;
-  border-width: 2px;
+  border-width: 2px 0px;
   border-color: white;
   margin: 10px;
   margin-left: auto;
