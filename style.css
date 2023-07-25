@@ -4,15 +4,13 @@
 }
 
 @font-face {
-  font-family: josefinsans;
-  src: url(assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+  font-family: baca;
+  src: url(assets/fonts/BacasimeAntique-Regular.ttf);
 }
 
 @font-face {
   font-family: josefinlight;
-  src: url(assets/fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
-}
-
+  src: url(assets/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
 html {
   font-size: 16px;
   scroll-behavior: smooth;
