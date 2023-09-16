@@ -104,11 +104,27 @@ li {
   width: 60%;
   padding: 15px;
   font-family: josefinsans;
-  
+  margin-bottom: 30px;
   min-height: 63vh;
+  display: block;
+  overflow: auto;
 }
 
 
+#contactright {
+  float: right;
+  width: 70%;
+  padding: 15px;
+}
+
+#contactleft {
+  float: left;
+  width: 30%;
+}
+
+#contactleft, img {
+  object-fit: contain;
+}
 
 
 
@@ -222,6 +238,7 @@ footer {
   width: 100%;
   background-color: #404040;
   padding: 20px;
+  position: fixed;
 
 }
 
@@ -269,6 +286,10 @@ footer a:hover {
   #gearbody {
     width: 85%;
     margin-bottom: 20px;
+  }
+
+  #contactright{
+    
   }
 
   #profile {
