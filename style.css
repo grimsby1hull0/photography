@@ -92,9 +92,11 @@ ul a:hover {
   margin-right: auto;
   width: 60%;
   padding: 15px;
-  font-family: josefinsans;
+  font-family: josefinsans !important;
   font-weight: lighter;
   min-height: 63vh;
+  display: block;
+  overflow: auto;
   margin-bottom: 30px;
   border-radius: 10px;
 }
@@ -119,15 +121,33 @@ ul a:hover {
 
 #contactright {
   float: right;
-  width: 30%;
+  width: 70%;
+  padding: 15px;
+  
+}
+
+#titlemob {
+  text-align: center;
+  display: none;
+}
+
+#titledesk {
+  margin-bottom: 10px;
+}
+
+#contactdescmob {
+  display: none;
 }
 
 #contactleft {
   float: left;
-  width: 70%;
+  width: 30%;
+  
 }
 
-
+#contactleft, img {
+  object-fit: contain;
+}
 
 
 

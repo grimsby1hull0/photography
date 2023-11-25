@@ -127,6 +127,10 @@ li {
   display: none;
 }
 
+#titledesk {
+  margin-bottom: 10px;
+}
+
 #contactleft {
   float: left;
   width: 30%;
