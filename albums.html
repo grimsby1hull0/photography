@@ -1,49 +1,53 @@
+
 <!DOCTYPE html>
+
 
 
 
 <html lang="en" >
   <head>
-  
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MLNRQH98LB"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-  
+
       gtag('config', 'G-MLNRQH98LB');
     </script>
 
-<script>
-  function getStylesheet() {
-    var currentTime = new Date().getHours();
-    if (0 <= currentTime&&currentTime < 8) {
-      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-    }
-    if (8 <= currentTime&&currentTime < 11) {
-      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-    }
-    if (11 <= currentTime&&currentTime < 18) {
-      document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
-    }
-    if (18 <= currentTime&&currentTime < 20) {
-      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-    }
-    if (20 <= currentTime&&currentTime <= 24) {
-      document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-    }
-  }
+
   
-  getStylesheet();
-  
-  </script>
-  
-  <noscript><link href="stylesheet.css" rel="stylesheet"></noscript>
-  
+    <script>
+    function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (0 <= currentTime&&currentTime < 8) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+      if (8 <= currentTime&&currentTime < 11) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+      if (11 <= currentTime&&currentTime < 18) {
+        document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
+      }
+      if (18 <= currentTime&&currentTime < 20) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+      if (20 <= currentTime&&currentTime <= 24) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+    }
+    
+    getStylesheet();
+    
+    </script>
+    
+    <noscript><link href="stylesheet.css" rel="stylesheet"></noscript>
+
     <title>Arron Ware Photography</title>
     <link rel="icon" href="assets/icons/35mm film.ico">
-  
+
     <meta name="description" content="Arron Ware's Online Photography Portfolio :)">
     <meta name="keywords" content="arron, ware, photography, nikon, d90, f90x, film, camera, urban, landscape, portrait, england, grimsby, lincolnshire, cleethorpes">
     <meta name="robots" content="index, follow">
@@ -52,8 +56,10 @@
     <meta name="language" content="English">
     <meta name="author" content="Arron Ware">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-   
+
+    
   
+
   </head>
 
 
@@ -68,6 +74,7 @@
   <div id="navbar">
     <a href="index.html">[ Home ]</a>
     <a href="albums.html">[ Albums ]</a>
+    <a href="imgindex.html">[ Index ]</a>
     <a href="gear.html">[ Gear ]</a>
     <a href="contact.html">[ Contact ]</a>
   </div>
@@ -75,50 +82,63 @@
 </div>
 
 
-<div id="gearbody">
-  <h2 id="pageheader">Albums</h2>
 
-  <h3>2023</h3>
-  <ul>
-    <li><a href="index.html#warwick">Warwickshire Ring (20 Aug - 4 Sep 2023)</a></li>
 
-    <li><a href="index.html#linmanc">Lincoln / Manchester (March-August 23)</a></li>
 
-    <li><a href="index.html#lincoln">Lincolnshire (May-June 23)</a></li>
-
-    <li><a href="index.html#liver">Liverpool & Manchester (Nov-Jan 22-23)</a></li>
-  </ul>
-
-  <h3>2022</h3>
-  <ul>
-    <li><a href="index.html#manc22">Manchester (Sep-Oct)</a></li>
-    <li><a href="index.html#dales">Yorkshire Dales (August)</a></li>
-    <li><a href="index.html#lanzarote">Lanzarote (July)</a></li>
-  </ul>
-
-  <h3>2021</h3>
-  <ul>
-    <li><a href="index.html#scarborough">Scarborough / Filey (July)</a></li>
-
-  </ul>
-  <h3>2019</h3>
-  <ul>
-    <li><a href="index.html#nyc">New York City (December) </a></li>
-
-  </ul>
-  <h3>2018</h3>
-  <ul>
-    <li><a href="index.html#lakedis">Lake District (August) </a></li>
-
-  </ul>
-
+  
+  
 </div>
 
+
+
+
+
 <!-- partial:index.partial.html -->
-<section class="gallery-container"></section>
+
+  
+
+
+
+
+ 
+<div id="gearbody" style="margin-bottom: 100px;">
+  <h2 id="pageheader">Albums</h2>
+  <div id="albumtext">
+    <h8>Hi, here are a few of my photos that I feel compliment each other well enough to warrant their own page together. <br> <br>
+      Most of these collections feature photos that aren't available on the main gallery page. <br> I hope you enjoy digging through :)</h8>
+  </div>
+
+  <div style="margin: 0px 15px 0px 15px;">
+    <div class="row">
+      <a href="albums/stone_friends.html"  class="col-md-4">
+        <img src="assets/albums/stonefriendstmb.jpg" class="img-fluid rounded">
+        
+      </a>
+      
+      
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js'></script><script  src="./script.js"></script>
+<script src='scripts/jquery.min.js'></script>
+<script src='scripts/bootstrap.min.js'></script>
+<script src='scripts/ekko-lightbox.min copy.js'></script><script  src="./script.js"></script>
+
+
+
 
 </body>
 
@@ -126,10 +146,10 @@
   <div id="wcb" class="carbonbadge wcb-d"></div>
   <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
   
-  Design &amp; content © 2023 <a href="mailto:arronware333@gmail.com">Arron Ware</a>. 
+  Gallery Images, Design &amp; content © 2023 <a href="mailto:arronware77@gmail.com">Arron Ware</a>. 
   Images, articles and video © their respective owners. 
   For issues concerning the usage of this content please contact the 
-  <a href="mailto:arronware333@gmail.com">Admin</a>
+  <a href="mailto:arronware77@gmail.com">Admin</a>
   <br>
   <br>
   
@@ -139,7 +159,6 @@
   <br>
   
 </footer>
-
 
 </html>
 
