@@ -409,4 +409,12 @@ h8 {
   color: black;
 }
 
+#albumlinks {
+  color: black;
+}
+
+#albumlinks:hover {
+  color: white;
+  background-color: black;
+}
 
