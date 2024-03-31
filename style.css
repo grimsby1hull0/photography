@@ -315,6 +315,13 @@ footer a:hover {
 
 @media (min-width: 320px) and (max-width: 999px) {
 
+  html {
+    font-size: 16px;
+    scroll-behavior:auto;
+  
+  }
+
+
   #gearbody {
     width: 85%;
     margin-bottom: 20px;
