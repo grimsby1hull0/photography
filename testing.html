@@ -1,49 +1,45 @@
+
 <!DOCTYPE html>
+
 
 
 
 <html lang="en" >
   <head>
+    
+    
+
+
   
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MLNRQH98LB"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-MLNRQH98LB');
+    function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (0 <= currentTime&&currentTime < 8) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+      if (8 <= currentTime&&currentTime < 11) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+      if (11 <= currentTime&&currentTime < 18) {
+        document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
+      }
+      if (18 <= currentTime&&currentTime < 20) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+      if (20 <= currentTime&&currentTime <= 24) {
+        document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
+      }
+    }
+    
+    getStylesheet();
+    
     </script>
-
-<script>
-function getStylesheet() {
-  var currentTime = new Date().getHours();
-  if (0 <= currentTime&&currentTime < 5) {
-    document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-  }
-  if (5 <= currentTime&&currentTime < 11) {
-    document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
-  }
-  if (11 <= currentTime&&currentTime < 18) {
-    document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
-  }
-  if (18 <= currentTime&&currentTime < 20) {
-    document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-  }
-  if (20 <= currentTime&&currentTime <= 24) {
-    document.write("<link rel='stylesheet' href='nightstyle.css' type='text/css'>");
-  }
-}
-  
-  getStylesheet();
-  
-  </script>
-  
-  <noscript><link href="style.css" rel="stylesheet"></noscript>
+    
+    <noscript><link href="style.css" rel="stylesheet"></noscript>
 
     <title>Arron Ware Photography</title>
     <link rel="icon" href="assets/icons/35mm film.ico">
-  
+
     <meta name="description" content="Arron Ware's Online Photography Portfolio :)">
     <meta name="keywords" content="arron, ware, photography, nikon, d90, f90x, film, camera, urban, landscape, portrait, england, grimsby, lincolnshire, cleethorpes">
     <meta name="robots" content="index, follow">
@@ -51,9 +47,11 @@ function getStylesheet() {
     <meta charset="UTF-8">
     <meta name="language" content="English">
     <meta name="author" content="Arron Ware">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     
-   
   
+
   </head>
 
 
@@ -68,6 +66,7 @@ function getStylesheet() {
   <div id="navbar">
     <a href="index.html">[ Home ]</a>
     <a href="albums.html">[ Albums ]</a>
+    <a href="imgindex.html">[ Index ]</a>
     <a href="gear.html">[ Gear ]</a>
     <a href="contact.html">[ Contact ]</a>
   </div>
@@ -77,24 +76,382 @@ function getStylesheet() {
 
 
 
-<div id="gearbody">
-  <h2>Gear</h2>
-  <h3>SLRs</h3>
-  <ul>
-    <li>Canon EOS 500 (1993)</li>
-    <li>Nikon F90X (1994)</li>
-  </ul>
-  <h3>DSLRs</h3>
-  <ul>
-    <li>Nikon D90 (2008)</li>
 
-  </ul>
+  
+  
+</div>
+
+
+
+
+
+<!-- partial:index.partial.html -->
+
+  
+
+
+
+<div class="container" >
+
+
+   <h2 id="london25" class="albumtitle" >London & Liverpool</h2>
+  <h2 class="albumdate"> Jun - July 2025</h2>
+  <div class="row">
+    <a href="assets/img/london cheshire 2025/000089220011EDITsmall.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/london cheshire 2025/thumb/000089220011EDITsmallTHUMB.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/london cheshire 2025/000089230019EDITSMALL.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/london cheshire 2025/thumb/000089230019EDITSMALLTHUMB.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/london cheshire 2025/000089230017EDITsmall.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/london cheshire 2025/thumb/000089230017EDITsmallTHUMB.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+
+  <h2 id="wales" class="albumtitle" >Wales & Great Limber</h2>
+  <h2 class="albumdate"> Aug 2024</h2>
+  <div class="row">
+    <a href="assets/img/wales/000089700021.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/wales/thumbs/000089700021THUMB.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/wales/000089700011.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/wales/thumbs/000089700011THUMB.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+
+
+
+  <h2 id="limberdec" class="albumtitle" >London & Manchester</h2>
+  <h2 class="albumdate"> Feb - April 2024</h2>
+  <div class="row">
+    <a href="assets/img/london/000077070026shadowssmall.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/london/thumb/000077070026TUBEshadowssmall.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/london/000077070019small.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/london/thumb/000077070019SHIPsmallcrop.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/london/000077070005small.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/london/thumb/000077070005smallcrop.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+
+
+  <h2 id="limberdec" class="albumtitle" >Great Limber </h2>
+  <h2 class="albumdate"> December 2023</h2>
+  <div class="row">
+    <a href="assets/img/limberdec24/000025110017small.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/limberdec24/thumbs/000025110017small.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/limberdec24/000025110019small.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/limberdec24/thumbs/000025110019small.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/limberdec24/000025110018small.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/limberdec24/thumbs/000025110018small.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+
+
+
+
+
+
+  <h2 id="warwick" class="albumtitle" >Warwickshire Ring </h2>
+  <h2 class="albumdate"> 20 Aug - 4 Sep 2023</h2>
+  <div class="row">
+    <a href="assets/img/warwickring/DSC8612.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/warwickring/thumbs/DSC8612.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/warwickring/DSC8522.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/warwickring/thumbs/DSC8522.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/warwickring/DSC8857.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/warwickring/thumbs/DSC8857.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/warwickring/dakrboatfilm.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/warwickring/thumbs/dakrboatfilm.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/warwickring/bridgefilm.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/warwickring/thumbs/bridgefilm.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/warwickring/duckfeedboat.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/warwickring/thumbs/duckfeedboat.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+
+
+
+
+
+  <h2 id="linmanc" class="albumtitle" >Lincoln & Manchester</h2>
+  <h2 class="albumdate"> March - August 2023</h2>
+  <div class="row">
+    <a href="assets/img/preboattrip/000033280028.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/preboattrip/thumbs/000033280028.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/preboattrip/000033280019.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/preboattrip/thumbs/000033280019.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/preboattrip/000033290006.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/preboattrip/thumbs/000033290006.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/preboattrip/000033280016.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/preboattrip/thumbs/000033280016.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+
+
+
+
+  <h2 id="lincoln" class="albumtitle" >Lincolnshire</h2>
+  <h2 class="albumdate">May-July 2023</h2>
+  <div class="row">
+    <a href="assets/img/linmanc 23/000003100001.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/linmanc 23/thumbs/000003100001.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/linmanc 23/000003100022.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/linmanc 23/thumbs/000003100022.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/linmanc 23/000003100019.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/linmanc 23/thumbs/000003100019.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/linmanc 23/000003100003.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/linmanc 23/thumbs/000003100003.jpg" class="img-fluid rounded">
+    </a>
+    
+  </div>
+
+
+
+
+  <h2 id="liver" class="albumtitle" >Liverpool & Manchester</h2>
+  <h2 class="albumdate">Nov-Jan 2022-23</h2>
+  <div class="row">
+    <a href="assets/img/liver/000004310016.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/liver/thumbs/000004310016.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/liver/000004310013.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/liver/thumbs/000004310013.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/liver/000004310014.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/liver/thumbs/000004310014.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/liver/000004310005.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/liver/thumbs/000004310005.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/liver/000004310018.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/liver/thumbs/000004310018.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/liver/000004310023.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/liver/thumbs/000004310023.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  
+
+
+  <h2 id="manc22" class="albumtitle" >Manchester </h2>
+  <h2 class="albumdate">Sep-Oct 2022</h2>
+  <div class="row">
+    <a href="assets/img/BNW Delta Manc/000003360014.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/BNW Delta Manc/thumbs/000003360014.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/BNW Delta Manc/000003360010.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/BNW Delta Manc/thumbs/000003360010.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/BNW Delta Manc/000003360033.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/BNW Delta Manc/thumbs/000003360033.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/BNW Delta Manc/000003360024.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/BNW Delta Manc/thumbs/000003360024.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/Portra 400 Manc/000003210025.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/Portra 400 Manc/thumbs/000003210025.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/Portra 400 Manc/000003210019.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/Portra 400 Manc/thumbs/000003210019.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/Portra 400 Manc/000003210010.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/Portra 400 Manc/thumbs/000003210010.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/Portra 400 Manc/000003210014.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/Portra 400 Manc/thumbs/000003210014.jpg" class="img-fluid rounded">
+    </a>
+    
+  </div>
+
+
+
+
+  <h2 id="dales" class="albumtitle" >Yorkshire Dales</h2>
+  <h2 class="albumdate">August 2022</h2>
+  <div class="row">
+    <a href="assets/img/yorkdales22/000002640031 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002640031 copy.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/yorkdales22/000002640023 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002640023 copy.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/yorkdales22/000002630010 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002630010 copy.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/yorkdales22/000002640006 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002640006 copy.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/yorkdales22/000002630027 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002630027 copy.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/yorkdales22/000002640004 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002640004 copy.jpg" class="img-fluid rounded">
+    </a>
+    
+  </div>
+  <div class="row">
+    <a href="assets/img/yorkdales22/000002630011 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002630011 copy.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/yorkdales22/000002630020 copy.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/000002630020 copy.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/yorkdales22/dogrock.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/yorkdales22/thumbs/dogrock.jpg" class="img-fluid rounded">
+    </a>
+    
+  </div>
+
+
+
+
+  <h2 id="lanzarote" class="albumtitle" >Lanzarote </h2>
+  <h2 class="albumdate">July 2022</h2>
+  <div class="row">
+    <a href="assets/img/lanzarote/DSC7269shrunk.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/DSC7269shrunk.JPG" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/lanzarote/DSC7264.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/DSC7264.JPG" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/lanzarote/DSC7497shrunk.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/DSC7497edited.JPG" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+    <a href="assets/img/lanzarote/volcanocafeshrunk.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/volcanocafeshrunk.JPG" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/lanzarote/DSC7441edited.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/DSC7441edited.JPG" class="img-fluid rounded">
+    </a>
+  </div>
+
+
+
+
+  <h2 id="scarborough" class="albumtitle" >Scarborough & Filey </h2>
+  <h2 class="albumdate">July 2021</h2>
+  <div class="row">
+    <a href="assets/img/scarborough/scarboroughhotel.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/scarboroughhotel.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/scarborough/DSC6256.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/DSC6256.JPG" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/scarborough/DSC6185cropped.JPG" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/DSC6185cropped.JPG" class="img-fluid rounded">
+    </a>
+
+  </div>
+
+
+
+
+
+  <h2 id="nyc" class="albumtitle" >New York City</h2>
+  <h2 class="albumdate">Dec 2019</h2>
+  <div class="row">
+
+    <a href="assets/img/nyc/signal-2021-03-28-202816_002.jpeg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/signal-2021-03-28-202816_002.jpeg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/nyc/signal-2021-03-28-202816_001.jpeg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/signal-2021-03-28-202816_001.jpeg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/nyc/IMG_20191211_121555.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/IMG_20191211_121555.jpg" class="img-fluid rounded">
+    </a>
+  </div>
+  <div class="row">
+
+    <a href="assets/img/nyc/IMG_20191211_110353-01.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/IMG_20191211_110353-01.png" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/nyc/IMG_20191214_164431.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/IMG_20191214_164431.jpg" class="img-fluid rounded">
+    </a>
+
+  </div>
+
+  <h2 id="lakedis" class="albumtitle" >Lake District</h2>
+  <h2 class="albumdate">2018</h2>
+  <div class="row">
+
+    <a href="assets/img/lakedis/IMG_20190817_170810-01 FINAL REMASTER COLOUR ADJUSTED JPEG  SCHMOL.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/IMG_20190817_170810-01 FINAL REMASTER COLOUR ADJUSTED JPEG  SCHMOL.jpg" class="img-fluid rounded">
+    </a>
+    <a href="assets/img/lakedis/IMG_20190820_150225-01smol.jpeg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="assets/img/previews/IMG_20190820_150225-01smol.jpeg" class="img-fluid rounded">
+    </a>
+    
+    
+  </div>
+
+
 
 </div>
 
+
+<div id="top">
+  <a id="topa" href="#">^  Back To The Top?  ^</a>
+</div>
+
+
+
+
+<!-- partial -->
+<script src='scripts/jquery.min.js'></script>
+<script src='scripts/bootstrap.min.js'></script>
+<script src='scripts/ekko-lightbox.min copy.js'></script><script  src="./script.js"></script>
+
+
+
+
 </body>
 
+<footer>
+  
+  
+  Design &amp; content © 2022 <a href="mailto:contact.arronware@gmail.com">Arron Ware</a>. 
+  <br>
+  <br>
+  
 
+  Gallery by Ekko Lightbox & Bootstrap
+  <br>
+  <br>
+  
+</footer>
 
 </html>
 

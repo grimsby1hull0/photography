@@ -258,10 +258,10 @@ ul a:hover {
 
 .albumdate {
   background-color: white;
-  color: black;
+  color: #393939;
   font-family: poppins;
   font-size: 1.4rem;
-  font-weight: bold;
+  padding-bottom: 1px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -339,6 +339,11 @@ footer a:hover {
 
 
 
+.modal-body {
+    padding: 0.09rem !important;
+  }
+
+
 
 
 
@@ -347,6 +352,10 @@ footer a:hover {
 
 
 @media (min-width: 320px) and (max-width: 999px) {
+
+  .modal-body {
+    padding: 0rem !important;
+  }
 
   html {
     font-size: 16px;
